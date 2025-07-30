@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+    <order>
+        <id><![CDATA[7908]]></id>
+        <id_address_delivery xlink:href="https://www.toolstock.info/api/addresses/15846"><![CDATA[15846]]></id_address_delivery>
+        <id_address_invoice xlink:href="https://www.toolstock.info/api/addresses/15845"><![CDATA[15845]]></id_address_invoice>
+        <id_cart xlink:href="https://www.toolstock.info/api/carts/10692"><![CDATA[10692]]></id_cart>
+        <id_currency xlink:href="https://www.toolstock.info/api/currencies/1"><![CDATA[1]]></id_currency>
+        <id_lang xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[1]]></id_lang>
+        <id_customer xlink:href="https://www.toolstock.info/api/customers/1809"><![CDATA[1809]]></id_customer>
+        <id_carrier xlink:href="https://www.toolstock.info/api/carriers/80"><![CDATA[80]]></id_carrier>
+        <current_state xlink:href="https://www.toolstock.info/api/order_states/2"><![CDATA[2]]></current_state>
+        <module><![CDATA[ps_wirepayment]]></module>
+        <invoice_number><![CDATA[0]]></invoice_number>
+        <invoice_date><![CDATA[0000-00-00 00:00:00]]></invoice_date>
+        <delivery_number><![CDATA[0]]></delivery_number>
+        <delivery_date><![CDATA[0000-00-00 00:00:00]]></delivery_date>
+        <valid><![CDATA[1]]></valid>
+        <date_add><![CDATA[2025-07-28 08:09:02]]></date_add>
+        <date_upd><![CDATA[2025-07-28 08:09:05]]></date_upd>
+        <shipping_number notFilterable="true"></shipping_number>
+        <id_shop_group><![CDATA[1]]></id_shop_group>
+        <id_shop><![CDATA[1]]></id_shop>
+        <secure_key><![CDATA[c4e862cc62852111b7bd2bee7416fa84]]></secure_key>
+        <payment><![CDATA[Amazon]]></payment>
+        <recyclable><![CDATA[0]]></recyclable>
+        <gift><![CDATA[0]]></gift>
+        <gift_message></gift_message>
+        <mobile_theme><![CDATA[0]]></mobile_theme>
+        <total_discounts><![CDATA[0.000000]]></total_discounts>
+        <total_discounts_tax_incl><![CDATA[0.000000]]></total_discounts_tax_incl>
+        <total_discounts_tax_excl><![CDATA[0.000000]]></total_discounts_tax_excl>
+        <total_paid><![CDATA[862.000000]]></total_paid>
+        <total_paid_tax_incl><![CDATA[862.000000]]></total_paid_tax_incl>
+        <total_paid_tax_excl><![CDATA[712.400000]]></total_paid_tax_excl>
+        <total_paid_real><![CDATA[862.000000]]></total_paid_real>
+        <total_products><![CDATA[712.400000]]></total_products>
+        <total_products_wt><![CDATA[862.000000]]></total_products_wt>
+        <total_shipping><![CDATA[0.000000]]></total_shipping>
+        <total_shipping_tax_incl><![CDATA[0.000000]]></total_shipping_tax_incl>
+        <total_shipping_tax_excl><![CDATA[0.000000]]></total_shipping_tax_excl>
+        <carrier_tax_rate><![CDATA[0.000]]></carrier_tax_rate>
+        <total_wrapping><![CDATA[0.000000]]></total_wrapping>
+        <total_wrapping_tax_incl><![CDATA[0.000000]]></total_wrapping_tax_incl>
+        <total_wrapping_tax_excl><![CDATA[0.000000]]></total_wrapping_tax_excl>
+        <round_mode><![CDATA[2]]></round_mode>
+        <round_type><![CDATA[2]]></round_type>
+        <conversion_rate><![CDATA[1.000000]]></conversion_rate>
+        <reference><![CDATA[ETOEWXAYQ]]></reference>
+        <associations>
+            <order_rows nodeType="order_row" virtualEntity="true">
+                <order_row>
+                    <id><![CDATA[8209]]></id>
+                    <product_id><![CDATA[10084]]></product_id>
+                    <product_attribute_id><![CDATA[0]]></product_attribute_id>
+                    <product_quantity><![CDATA[1]]></product_quantity>
+                    <product_name><![CDATA[LLAVE DE IMPACTO ALTO PAR M18 FUEL ONEKEY 3/4" CON ANILLO - M18ONEFHIWF34-502X]]></product_name>
+                    <product_reference><![CDATA[4933459730]]></product_reference>
+                    <product_ean13><![CDATA[4058546029029]]></product_ean13>
+                    <product_isbn></product_isbn>
+                    <product_upc></product_upc>
+                    <product_price><![CDATA[483.470000]]></product_price>
+                    <unit_price_tax_incl><![CDATA[585.000000]]></unit_price_tax_incl>
+                    <unit_price_tax_excl><![CDATA[483.470000]]></unit_price_tax_excl>
+                </order_row>
+                <order_row>
+                    <id><![CDATA[8210]]></id>
+                    <product_id><![CDATA[10142]]></product_id>
+                    <product_attribute_id><![CDATA[0]]></product_attribute_id>
+                    <product_quantity><![CDATA[1]]></product_quantity>
+                    <product_name><![CDATA[LLAVE DE IMPACTO M18 FUEL 1/2" CON ANILLO - M18FIW2F12-0X]]></product_name>
+                    <product_reference><![CDATA[4933478443]]></product_reference>
+                    <product_ean13><![CDATA[4058546346348]]></product_ean13>
+                    <product_isbn></product_isbn>
+                    <product_upc></product_upc>
+                    <product_price><![CDATA[228.930000]]></product_price>
+                    <unit_price_tax_incl><![CDATA[277.000000]]></unit_price_tax_incl>
+                    <unit_price_tax_excl><![CDATA[228.930000]]></unit_price_tax_excl>
+                </order_row>
+            </order_rows>
+        </associations>
+    </order>
+</prestashop>

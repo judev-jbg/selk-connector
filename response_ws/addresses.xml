@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+    <address>
+        <id><![CDATA[15846]]></id>
+        <id_customer xlink:href="https://www.toolstock.info/api/customers/1809"><![CDATA[1809]]></id_customer>
+        <id_manufacturer><![CDATA[0]]></id_manufacturer>
+        <id_supplier><![CDATA[0]]></id_supplier>
+        <id_warehouse><![CDATA[0]]></id_warehouse>
+        <id_country xlink:href="https://www.toolstock.info/api/countries/6"><![CDATA[6]]></id_country>
+        <id_state><![CDATA[0]]></id_state>
+        <alias><![CDATA[Envío Amazon]]></alias>
+        <company></company>
+        <lastname><![CDATA[Manchon Pozo]]></lastname>
+        <firstname><![CDATA[Joaquin]]></firstname>
+        <vat_number></vat_number>
+        <address1><![CDATA[Calle Molineta 1]]></address1>
+        <address2></address2>
+        <postcode><![CDATA[6207]]></postcode>
+        <city><![CDATA[Aceuchal]]></city>
+        <other></other>
+        <phone><![CDATA[666097021]]></phone>
+        <phone_mobile></phone_mobile>
+        <dni></dni>
+        <deleted><![CDATA[0]]></deleted>
+        <date_add><![CDATA[2025-07-28 08:08:06]]></date_add>
+        <date_upd><![CDATA[2025-07-28 08:08:06]]></date_upd>
+    </address>
+</prestashop>

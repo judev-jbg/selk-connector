@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+    <cart>
+        <id><![CDATA[10692]]></id>
+        <id_address_delivery xlink:href="https://www.toolstock.info/api/addresses/15846"><![CDATA[15846]]></id_address_delivery>
+        <id_address_invoice xlink:href="https://www.toolstock.info/api/addresses/15845"><![CDATA[15845]]></id_address_invoice>
+        <id_currency xlink:href="https://www.toolstock.info/api/currencies/1"><![CDATA[1]]></id_currency>
+        <id_customer xlink:href="https://www.toolstock.info/api/customers/1809"><![CDATA[1809]]></id_customer>
+        <id_guest><![CDATA[0]]></id_guest>
+        <id_lang xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[1]]></id_lang>
+        <id_shop_group><![CDATA[1]]></id_shop_group>
+        <id_shop><![CDATA[1]]></id_shop>
+        <id_carrier><![CDATA[80]]></id_carrier>
+        <recyclable><![CDATA[0]]></recyclable>
+        <gift><![CDATA[0]]></gift>
+        <gift_message></gift_message>
+        <mobile_theme><![CDATA[0]]></mobile_theme>
+        <delivery_option></delivery_option>
+        <secure_key><![CDATA[c4e862cc62852111b7bd2bee7416fa84]]></secure_key>
+        <allow_seperated_package><![CDATA[0]]></allow_seperated_package>
+        <date_add><![CDATA[2025-07-28 08:09:00]]></date_add>
+        <date_upd><![CDATA[2025-07-28 08:09:01]]></date_upd>
+        <associations>
+            <cart_rows nodeType="cart_row" virtualEntity="true">
+                <cart_row>
+                    <id_product xlink:href="https://www.toolstock.info/api/products/10084"><![CDATA[10084]]></id_product>
+                    <id_product_attribute xlink:href="https://www.toolstock.info/api/combinations/0"><![CDATA[0]]></id_product_attribute>
+                    <id_address_delivery xlink:href="https://www.toolstock.info/api/addresses/15846"><![CDATA[15846]]></id_address_delivery>
+                    <quantity><![CDATA[1]]></quantity>
+                </cart_row>
+                <cart_row>
+                    <id_product xlink:href="https://www.toolstock.info/api/products/10142"><![CDATA[10142]]></id_product>
+                    <id_product_attribute xlink:href="https://www.toolstock.info/api/combinations/0"><![CDATA[0]]></id_product_attribute>
+                    <id_address_delivery xlink:href="https://www.toolstock.info/api/addresses/15846"><![CDATA[15846]]></id_address_delivery>
+                    <quantity><![CDATA[1]]></quantity>
+                </cart_row>
+            </cart_rows>
+        </associations>
+    </cart>
+</prestashop>
