@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name	Format	Required	Writable	Max size	Not filterable
+id_manufacturer	isUnsignedId	❌	✔️		
+id_supplier	isUnsignedId	❌	✔️		
+id_category_default	isUnsignedId	❌	✔️		
+new		❌	✔️		
+cache_default_attribute		❌	✔️		
+id_default_image		❌	✔️		true
+id_default_combination		❌	✔️		true
+id_tax_rules_group	isUnsignedId	❌	✔️		
+position_in_category		❌	✔️		true
+manufacturer_name		❌	❌		true
+quantity		❌	❌		true
+type		❌	✔️		true
+id_shop_default	isUnsignedId	❌	✔️		
+reference	isReference	❌	✔️	64	
+supplier_reference	isReference	❌	✔️	64	
+location	isString	❌	✔️	255	
+width	isUnsignedFloat	❌	✔️		
+height	isUnsignedFloat	❌	✔️		
+depth	isUnsignedFloat	❌	✔️		
+weight	isUnsignedFloat	❌	✔️		
+quantity_discount	isBool	❌	✔️		
+ean13	isEan13	❌	✔️	13	
+isbn	isIsbn	❌	✔️	32	
+upc	isUpc	❌	✔️	12	
+mpn	isMpn	❌	✔️	40	
+cache_is_pack	isBool	❌	✔️		
+cache_has_attachments	isBool	❌	✔️		
+is_virtual	isBool	❌	✔️		
+state	isUnsignedId	❌	✔️		
+additional_delivery_times	isUnsignedId	❌	✔️		
+delivery_in_stock	isGenericName	❌	✔️	255	
+delivery_out_stock	isGenericName	❌	✔️	255	
+on_sale	isBool	❌	✔️		
+online_only	isBool	❌	✔️		
+ecotax	isPrice	❌	✔️		
+minimal_quantity	isUnsignedInt	❌	✔️		
+low_stock_threshold	isInt	❌	✔️		
+low_stock_alert	isBool	❌	✔️		
+price	isPrice	✔️	✔️		
+wholesale_price	isPrice	❌	✔️		
+unity	isString	❌	✔️		
+unit_price_ratio		❌	✔️		
+additional_shipping_cost	isPrice	❌	✔️		
+customizable	isUnsignedInt	❌	✔️		
+text_fields	isUnsignedInt	❌	✔️		
+uploadable_files	isUnsignedInt	❌	✔️		
+active	isBool	❌	✔️		
+redirect_type	isString	❌	✔️		
+id_type_redirected	isUnsignedId	❌	✔️		
+available_for_order	isBool	❌	✔️		
+available_date	isDateFormat	❌	✔️		
+show_condition	isBool	❌	✔️		
+condition	isGenericName	❌	✔️		
+show_price	isBool	❌	✔️		
+indexed	isBool	❌	✔️		
+visibility	isProductVisibility	❌	✔️		
+advanced_stock_management	isBool	❌	✔️		
+date_add	isDate	❌	✔️		
+date_upd	isDate	❌	✔️		
+pack_stock_type	isUnsignedInt	❌	✔️		
+meta_description	isGenericName	❌	✔️	512	
+meta_keywords	isGenericName	❌	✔️	255	
+meta_title	isGenericName	❌	✔️	255	
+link_rewrite	isLinkRewrite	❌	✔️	128	
+name	isCatalogName	❌	✔️	128	
+description	isCleanHtml	❌	✔️		
+description_short	isCleanHtml	❌	✔️		
+available_now	isGenericName	❌	✔️	255	
+available_later	IsGenericName	❌	✔️	255	
+associations		❌	✔️		
+
+-->
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+    <product>
+        <id><![CDATA[10217]]></id>
+        <id_manufacturer><![CDATA[0]]></id_manufacturer>
+        <id_supplier><![CDATA[0]]></id_supplier>
+        <id_category_default xlink:href="https://www.toolstock.info/api/categories/412"><![CDATA[412]]></id_category_default>
+        <new></new>
+        <cache_default_attribute><![CDATA[0]]></cache_default_attribute>
+        <id_default_image xlink:href="https://www.toolstock.info/api/images/products/10217/693075" notFilterable="true"><![CDATA[693075]]></id_default_image>
+        <id_default_combination notFilterable="true"></id_default_combination>
+        <id_tax_rules_group xlink:href="https://www.toolstock.info/api/tax_rule_groups/39"><![CDATA[39]]></id_tax_rules_group>
+        <position_in_category notFilterable="true"><![CDATA[1]]></position_in_category>
+        <manufacturer_name notFilterable="true"></manufacturer_name>
+        <quantity notFilterable="true"><![CDATA[0]]></quantity>
+        <type notFilterable="true"><![CDATA[simple]]></type>
+        <id_shop_default><![CDATA[1]]></id_shop_default>
+        <reference><![CDATA[4933493455]]></reference>
+        <supplier_reference></supplier_reference>
+        <location></location>
+        <width><![CDATA[16.000000]]></width>
+        <height><![CDATA[9.000000]]></height>
+        <depth><![CDATA[20.000000]]></depth>
+        <weight><![CDATA[0.956000]]></weight>
+        <quantity_discount><![CDATA[0]]></quantity_discount>
+        <ean13></ean13>
+        <isbn></isbn>
+        <upc></upc>
+        <cache_is_pack><![CDATA[0]]></cache_is_pack>
+        <cache_has_attachments><![CDATA[0]]></cache_has_attachments>
+        <is_virtual><![CDATA[0]]></is_virtual>
+        <state><![CDATA[1]]></state>
+        <on_sale><![CDATA[0]]></on_sale>
+        <online_only><![CDATA[0]]></online_only>
+        <ecotax><![CDATA[0.000000]]></ecotax>
+        <minimal_quantity><![CDATA[1]]></minimal_quantity>
+        <price><![CDATA[328.925620]]></price>
+        <wholesale_price><![CDATA[0.000000]]></wholesale_price>
+        <unity><![CDATA[Un]]></unity>
+        <unit_price_ratio><![CDATA[0.000000]]></unit_price_ratio>
+        <additional_shipping_cost><![CDATA[0.00]]></additional_shipping_cost>
+        <customizable><![CDATA[0]]></customizable>
+        <text_fields><![CDATA[0]]></text_fields>
+        <uploadable_files><![CDATA[0]]></uploadable_files>
+        <active><![CDATA[1]]></active>
+        <redirect_type><![CDATA[404]]></redirect_type>
+        <id_type_redirected><![CDATA[0]]></id_type_redirected>
+        <available_for_order><![CDATA[1]]></available_for_order>
+        <available_date><![CDATA[0000-00-00]]></available_date>
+        <show_condition><![CDATA[0]]></show_condition>
+        <condition><![CDATA[new]]></condition>
+        <show_price><![CDATA[1]]></show_price>
+        <indexed><![CDATA[1]]></indexed>
+        <visibility><![CDATA[both]]></visibility>
+        <advanced_stock_management><![CDATA[0]]></advanced_stock_management>
+        <date_add><![CDATA[2025-02-28 10:33:00]]></date_add>
+        <date_upd><![CDATA[2025-07-29 12:23:49]]></date_upd>
+        <pack_stock_type><![CDATA[0]]></pack_stock_type>
+        <meta_description>
+            <language id="1" xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[Llave de impacto subcompacta M12 FUEL™ de ½" con anillo. Más potencia, más compacta, más control. Hasta 542Nm de par máximo.]]></language>
+        </meta_description>
+        <meta_keywords>
+            <language id="1" xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[M12 FCIWF12G3-502X, m12, milwaukee, 4933493455 llave de impacto]]></language>
+        </meta_keywords>
+        <meta_title>
+            <language id="1" xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[Llave de impacto subcompacta M12 FUEL™ de ½" con anillo | M12 FCIWF12G3 | Milwaukee Tool ES | 4933493455]]></language>
+        </meta_title>
+        <link_rewrite>
+            <language id="1" xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[LLAVEDEIMPACTOM12FUEL12CUADRADILLO-M12FCIWF12G3-502X]]></language>
+        </link_rewrite>
+        <name>
+            <language id="1" xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[LLAVE DE IMPACTO M12 FUEL 1/2" CUADRADILLO - M12FCIWF12G3-502X]]></language>
+        </name>
+        <description>
+            <language id="1" xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[La mayor potencia de su clase: 542Nm de par de apriete y 745Nm de par de desapriete en las aplicaciones más habituales
+Peso de 1kg sin batería y longitud de 122mm para un mejor acceso y menos fatiga en la aplicación
+3.000rpm para una velocidad de aplicación excepcional
+Los 4 modos DRIVE CONTROL permiten al usuario cambiar a cuatro configuraciones diferentes de velocidad y par para maximizar la versatilidad de la aplicación
+Cambio de modo a una sola mano para una mayor versatilidad en espacios reducidos
+Iluminación tri-LED de alta definición para aumentar la visibilidad en el lugar de trabajo
+El ADN de nuestro sistema FUEL™ redefine el equilibrio de las tecnologías a batería. El motor sin escobillas MILWAUKEE® POWERSTATE™, la batería REDLITHIUM™ y la electrónica REDLINK PLUS™ ofrecen potencia, autonomía y durabilidad sin igual
+Sistema flexible de baterías: funciona con todas las baterías M12™ de MILWAUKEE®]]></language>
+        </description>
+        <description_short>
+            <language id="1" xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[M12 FCIWF12G3-502X <br />
+Se suministra en maleta de transporte HD-BOX]]></language>
+        </description_short>
+        <available_now>
+            <language id="1" xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[]]></language>
+        </available_now>
+        <available_later>
+            <language id="1" xlink:href="https://www.toolstock.info/api/languages/1"><![CDATA[]]></language>
+        </available_later>
+        <dato_extra1></dato_extra1>
+        <associations>
+            <categories nodeType="category" api="categories">
+                <category xlink:href="https://www.toolstock.info/api/categories/410">
+                    <id><![CDATA[410]]></id>
+                </category>
+                <category xlink:href="https://www.toolstock.info/api/categories/412">
+                    <id><![CDATA[412]]></id>
+                </category>
+                <category xlink:href="https://www.toolstock.info/api/categories/729">
+                    <id><![CDATA[729]]></id>
+                </category>
+            </categories>
+            <images nodeType="image" api="images">
+                <image xlink:href="https://www.toolstock.info/api/images/products/10217/693075">
+                    <id><![CDATA[693075]]></id>
+                </image>
+            </images>
+            <combinations nodeType="combination" api="combinations"/>
+            <product_option_values nodeType="product_option_value" api="product_option_values"/>
+            <product_features nodeType="product_feature" api="product_features"/>
+            <tags nodeType="tag" api="tags"/>
+            <stock_availables nodeType="stock_available" api="stock_availables">
+                <stock_available xlink:href="https://www.toolstock.info/api/stock_availables/10268">
+                    <id><![CDATA[10268]]></id>
+                    <id_product_attribute><![CDATA[0]]></id_product_attribute>
+                </stock_available>
+            </stock_availables>
+            <accessories nodeType="product" api="products"/>
+            <product_bundle nodeType="product" api="products"/>
+        </associations>
+    </product>
+</prestashop>

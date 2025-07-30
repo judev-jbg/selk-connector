@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name	Format	Required	Max size
+id_customer	isNullOrUnsignedId	❌	
+id_manufacturer	isNullOrUnsignedId	❌	
+id_supplier	isNullOrUnsignedId	❌	
+id_warehouse	isNullOrUnsignedId	❌	
+id_country	isUnsignedId	✔️	
+id_state	isNullOrUnsignedId	❌	
+alias	isGenericName	✔️	32
+company	isGenericName	❌	255
+lastname	isName	✔️	255
+firstname	isName	✔️	255
+vat_number	isGenericName	❌	
+address1	isAddress	✔️	128
+address2	isAddress	❌	128
+postcode	isPostCode	❌	12
+city	isCityName	✔️	64
+other	isMessage	❌	300
+phone	isPhoneNumber	❌	32
+phone_mobile	isPhoneNumber	❌	32
+dni	isDniLite	❌	16
+deleted	isBool	❌	
+date_add	isDate	❌	
+date_upd	isDate	❌	
+
+ -->
 <prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
     <address>
         <id><![CDATA[15846]]></id>

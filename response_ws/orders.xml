@@ -1,4 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Name	Format	Required	Not filterable
+id_address_delivery	isUnsignedId	✔️	
+id_address_invoice	isUnsignedId	✔️	
+id_cart	isUnsignedId	✔️	
+id_currency	isUnsignedId	✔️	
+id_lang	isUnsignedId	✔️	
+id_customer	isUnsignedId	✔️	
+id_carrier	isUnsignedId	✔️	
+current_state	isUnsignedId	❌	
+module	isModuleName	✔️	
+invoice_number		❌	
+invoice_date		❌	
+delivery_number		❌	
+delivery_date		❌	
+valid		❌	
+date_add	isDate	❌	
+date_upd	isDate	❌	
+shipping_number	isTrackingNumber	❌	true
+note	isCleanHtml	❌	
+id_shop_group	isUnsignedId	❌	
+id_shop	isUnsignedId	❌	
+secure_key	isMd5	❌	
+payment	isGenericName	✔️	
+recyclable	isBool	❌	
+gift	isBool	❌	
+gift_message	isMessage	❌	
+mobile_theme	isBool	❌	
+total_discounts	isPrice	❌	
+total_discounts_tax_incl	isPrice	❌	
+total_discounts_tax_excl	isPrice	❌	
+total_paid	isPrice	✔️	
+total_paid_tax_incl	isPrice	❌	
+total_paid_tax_excl	isPrice	❌	
+total_paid_real	isPrice	✔️	
+total_products	isPrice	✔️	
+total_products_wt	isPrice	✔️	
+total_shipping	isPrice	❌	
+total_shipping_tax_incl	isPrice	❌	
+total_shipping_tax_excl	isPrice	❌	
+carrier_tax_rate	isFloat	❌	
+total_wrapping	isPrice	❌	
+total_wrapping_tax_incl	isPrice	❌	
+total_wrapping_tax_excl	isPrice	❌	
+round_mode	isUnsignedId	❌	
+round_type	isUnsignedId	❌	
+conversion_rate	isFloat	✔️	
+reference		❌	
+associations		❌	
+
+
+-->
 <prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
     <order>
         <id><![CDATA[7908]]></id>
