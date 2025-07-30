@@ -2,7 +2,10 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "analyze": "node src/tools/focused-analyzer.js"
+    "clientes": "node src/tools/clientes-analyzer.js",
+    "articulos": "node src/tools/articulos-analyzer.js",
+    "pedidos": "node src/tools/pedidos-clientes-analyzer.js",
+    "stock": "node src/tools/stock-analyzer.js"
   },
   "dependencies": {
     "axios": "^1.11.0",
